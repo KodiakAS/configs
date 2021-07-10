@@ -1,0 +1,85 @@
+{
+    // general
+    "workbench.colorTheme": "Shades of Purple",
+    "files.autoSave": "afterDelay",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "remote.SSH.remotePlatform": {
+        "159.138.142.231": "linux"
+    },
+    "window.zoomLevel": 0,
+    "editor.tabSize": 4,
+    "editor.rulers": [
+        80
+    ],
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    // "editor.semanticHighlighting.enabled": true,
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#272727",
+        "terminalCursor.background": "#000000"
+    },
+    "explorer.compactFolders": false,
+    "terminal.integrated.cursorStyle": "block",
+    "security.workspace.trust.untrustedFiles": "open",
+
+    // python
+    "python.defaultInterpreterPath": "C:\\Users\\KodiakAS\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "python.languageServer": "Pylance",
+    "python.formatting.provider": "yapf",
+    "python.formatting.yapfArgs": [
+        "--style",
+        "{based_on_style: google}"
+    ],
+
+    // leetcode
+    "leetcode.endpoint": "leetcode-cn",
+    "leetcode.workspaceFolder": "c:\\Users\\KodiakAS\\Dev\\Leetcode",
+    "leetcode.hint.configWebviewMarkdown": false,
+    "leetcode.hint.commentDescription": false,
+
+
+    // yaml
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        }
+    },
+
+
+    // go
+    "go.toolsManagement.autoUpdate": true,
+    "go.useLanguageServer": true,
+    "go.formatTool": "gofmt",
+    "[go]": {
+        "editor.tabSize": 4,
+        "editor.formatOnSave": false,
+        "editor.insertSpaces": true
+    },
+
+
+    // git
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+
+    // cpp
+    "[cpp]": {
+    
+        "editor.wordBasedSuggestions": false,
+        "editor.suggest.insertMode": "replace",
+        "editor.semanticHighlighting.enabled": true
+    },
+
+    // other
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+}
