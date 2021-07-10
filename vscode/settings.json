@@ -1,6 +1,4 @@
 {
-    // general
-    "workbench.colorTheme": "Shades of Purple",
     "files.autoSave": "afterDelay",
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
@@ -19,11 +17,14 @@
     // "editor.semanticHighlighting.enabled": true,
     "workbench.colorCustomizations": {
         "editorRuler.foreground": "#272727",
-        "terminalCursor.background": "#000000"
+        "terminalCursor.background": "#000000",
     },
     "explorer.compactFolders": false,
     "terminal.integrated.cursorStyle": "block",
     "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Shades of Purple",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
 
     // python
     "python.defaultInterpreterPath": "C:\\Users\\KodiakAS\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
