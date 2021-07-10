@@ -15,7 +15,6 @@ Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
 
 # for Python
-$env:PATHEXT += ";.py"
 function UpdatePythonPackages {
     Write-Host "Update all outdated Python package" -ForegroundColor Magenta -BackgroundColor Cyan
     $a = pip list --outdated
