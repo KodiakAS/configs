@@ -4,10 +4,9 @@
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
-
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
+export PATH=/mnt/c/Users/KodiakAS/AppData/Local/Programs/Microsoft\ VS\ Code/bin:/usr/lib/wsl/lib:$PATH:/home/dxy/Dev/scripts
+export WSL_DISTRO_NAME=Ubuntu-20.04
 # Path to your oh-my-zsh installation.
 export ZSH="/home/dxy/.oh-my-zsh"
 
@@ -24,7 +23,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
+CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.

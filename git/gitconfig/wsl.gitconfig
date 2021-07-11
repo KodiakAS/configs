@@ -1,0 +1,17 @@
+[user]
+	email = kodiakas@hotmail.com
+	name = KodiakAS
+[core]
+	autocrlf = input
+	editor = code --wait
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = "code --wait --diff $LOCAL $REMOTE"
+[pager]
+	branch = false
+	log = false
+[alias]
+	lg = log --oneline --graph
+[credential]
+	helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe

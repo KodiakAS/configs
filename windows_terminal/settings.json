@@ -40,40 +40,43 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-    "initialCols": 120,
+    "initialCols": 125,
     "initialRows": 35,
     "keybindings": null,
     "profiles": 
     {
         "defaults": 
         {
-            "acrylicOpacity": 0.90000000000000002,
+            "acrylicOpacity": 0.8,
             "useAcrylic": true
         },
         "list": 
         [
             {
-                "colorScheme": "Light",
+                // "colorScheme": "Light",
                 "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
                 "hidden": false,
                 "name": "Ubuntu-20.04",
-                "padding": "10,10,10,10",
+                "padding": "7,10,0,10",
                 "source": "Windows.Terminal.Wsl",
-                "startingDirectory": "//wsl$/Ubuntu-20.04/home/dxy"
+                "startingDirectory": "//wsl$/Ubuntu-20.04/home/dxy",
+                "fontFace": "MesloLGS NF",
+                "tabColor": "#c5380e"
             },
             {
-                "colorScheme": "Light",
+                // "colorScheme": "Light",
                 "commandline": "powershell.exe -nologo",
                 "fontFace": "Fira Code",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell",
-                "padding": "10,10,10,10"
+                "padding": "10,10,10,10",
+                "tabColor": "#2156c7"
             },
             {
                 "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": true,
+                "hidden": false,
                 "name": "\u547d\u4ee4\u63d0\u793a\u7b26"
             },
             {
