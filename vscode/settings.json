@@ -14,34 +14,43 @@
     "editor.fontSize": 16,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
     // "editor.semanticHighlighting.enabled": true,
     "workbench.colorCustomizations": {
         "editorRuler.foreground": "#272727",
         "terminalCursor.background": "#000000",
+        "[Shades of Purple]": {
+            "editorGutter.modifiedBackground": "#ffbb00",
+        },
     },
     "explorer.compactFolders": false,
     "terminal.integrated.cursorStyle": "block",
     "security.workspace.trust.untrustedFiles": "open",
-    "workbench.colorTheme": "Shades of Purple",
     "diffEditor.ignoreTrimWhitespace": false,
-    "terminal.integrated.fontFamily": "MesloLGS NF",
-
+    "terminal.integrated.fontFamily": "Fira Code",
+    // "terminal.integrated.fontFamily": "MesloLGS NF",
     // python
-    "python.defaultInterpreterPath": "C:\\Users\\KodiakAS\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "python.defaultInterpreterPath": "/bin/python",
     "python.languageServer": "Pylance",
     "python.formatting.provider": "yapf",
     "python.formatting.yapfArgs": [
         "--style",
         "{based_on_style: google}"
     ],
-
     // leetcode
     "leetcode.endpoint": "leetcode-cn",
     "leetcode.workspaceFolder": "c:\\Users\\KodiakAS\\Dev\\Leetcode",
     "leetcode.hint.configWebviewMarkdown": false,
     "leetcode.hint.commentDescription": false,
-
-
     // yaml
     "[yaml]": {
         "editor.insertSpaces": true,
@@ -53,8 +62,6 @@
             "strings": true
         }
     },
-
-
     // go
     "go.toolsManagement.autoUpdate": true,
     "go.useLanguageServer": true,
@@ -64,23 +71,23 @@
         "editor.formatOnSave": false,
         "editor.insertSpaces": true
     },
-
-
     // git
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
-
     // cpp
     "[cpp]": {
-    
         "editor.wordBasedSuggestions": false,
         "editor.suggest.insertMode": "replace",
-        "editor.semanticHighlighting.enabled": true
+        "editor.semanticHighlighting.enabled": true,
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
     },
-
+    "C_Cpp.clang_format_style": "{ BasedOnStyle: Google }",
     // other
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left"
     },
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "workbench.colorTheme": "Shades of Purple",
 }
