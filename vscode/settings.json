@@ -6,7 +6,6 @@
     "remote.SSH.remotePlatform": {
         "159.138.142.231": "linux"
     },
-    "window.zoomLevel": 0,
     "editor.tabSize": 4,
     "editor.rulers": [
         80
@@ -19,7 +18,7 @@
             {
                 "scope": "comment",
                 "settings": {
-                    "fontStyle": ""
+                    "fontStyle": "",
                 }
             }
         ]
@@ -39,7 +38,7 @@
     "terminal.integrated.fontFamily": "Fira Code",
     // "terminal.integrated.fontFamily": "MesloLGS NF",
     // python
-    "python.defaultInterpreterPath": "/bin/python",
+    "python.defaultInterpreterPath": "\\bin\\python",
     "python.languageServer": "Pylance",
     "python.formatting.provider": "yapf",
     "python.formatting.yapfArgs": [
@@ -79,15 +78,21 @@
         "editor.wordBasedSuggestions": false,
         "editor.suggest.insertMode": "replace",
         "editor.semanticHighlighting.enabled": true,
-        "editor.tabSize": 2,
+        "editor.tabSize": 4,
         "editor.insertSpaces": true
     },
-    "C_Cpp.clang_format_style": "{ BasedOnStyle: Google }",
+    "C_Cpp.clang_format_style": "{ BasedOnStyle: Google, Language: Cpp, AccessModifierOffset: -4, AllowShortFunctionsOnASingleLine: Inline, ColumnLimit: 120, ConstructorInitializerIndentWidth: 8, ContinuationIndentWidth: 8, DerivePointerAlignment: false, IndentCaseLabels: false, IndentWidth: 4, PointerAlignment: Left, ReflowComments: false, SortUsingDeclarations: false, SpacesBeforeTrailingComments: 1 }",
     // other
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left"
     },
     "terminal.integrated.defaultProfile.linux": "bash",
-    "workbench.colorTheme": "Shades of Purple",
+    "tabnine.experimentalAutoImports": true,
+    "cmake.configureOnOpen": false,
+    "cmake.configureOnEdit": false,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "redhat.telemetry.enabled": true,
+    "workbench.colorTheme": "Visual Studio Dark - C++",
+    "leetcode.hint.commandShortcut": false,
 }
